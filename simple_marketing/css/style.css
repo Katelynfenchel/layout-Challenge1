@@ -1,0 +1,168 @@
+/*header{
+    height: 120px;
+	width: 100%;
+	background: #D3D3D3;
+	border: 1px solid grey;
+
+}*/
+
+body {
+    width: 100%
+    /*margin: 20px auto;*/
+}
+
+.wrapper {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    clear: both;
+}
+
+.wrapper div {
+        background: #D3D3D3;
+        border: 1px solid grey;
+        float: left;
+}
+/*
+h1 {
+    font-family: Arial;
+    font-size: 30px;
+    width: 100%;
+    text-align: center;
+    margin: 20px auto;
+}*/
+
+.full {
+    width: 100%;
+    height: 120px;
+    margin: 10px auto;
+}
+
+.half {
+    width: 390px;
+    width: calc(50% - 10px);
+    height: 300px;
+    margin: 5px auto;
+}
+
+.half:nth-of-type(2){
+    float: right;
+}
+
+.third {
+    width: 254px;
+    width: calc(33.3% - 12px);
+    height: 150px;
+    margin: 10px;
+}
+
+.one {
+    margin: 10px 0;
+}
+
+.two {
+   margin: 10px 15px;
+}
+
+.three {
+    float: right;
+    margin: 10px 0;
+}
+
+header {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+.nav {
+    float: right;
+    list-style-type: none;
+}
+
+.logo {
+    float: left;
+    height: 120px;
+    background: #D3D3D3;
+    border: 1px solid grey;
+    width: 200px;
+}
+
+li.item {
+    float: left;
+    height: 50px;
+    background: #D3D3D3;
+    border: 1px solid grey;
+    width: 120px;
+    margin-right: 10px
+}
+
+li.item:nth-of-type(4){
+    margin-right: 0;
+}
+
+.feature {
+    width: 100%;
+    height: 300px;
+    margin: 20px auto 10px;
+}
+
+.left-col {
+    height: 600px;
+    width: 100px;
+    float: left;
+    margin: 10px 10px 10px 0;
+}
+
+.right-col {
+    height: 600px;
+    float: right;
+    width: calc(100% - 120px);
+    background: #fff !important;
+    border: none !important;
+}
+
+.right-col .two-thirds {
+    width: calc(70% - 10px);
+    float: left;
+    height: 260px;
+}
+
+.right-col .one-third {
+    width: calc(30% - 10px);
+    float: right;
+    height: 260px;
+}
+
+.right-col .row {
+    width: 100%;
+    background: #fff !important;
+    border: none !important;
+    margin: 10px 0;
+}
+
+.right-col .forth {
+    width: calc(25% - 10px);
+    float: left;
+    margin-right: 5px;
+    height: 150px;
+}
+
+.right-col .last {
+    float: right;
+    margin-right: 0
+}
+
+/*
+footer{
+	position: absolute;
+	right: 5px;
+    bottom: 0;
+    left: 5px;
+ 	padding: 1rem;
+ 	border: 1px solid grey;
+ 	background: #D3D3D3;
+ 	height: 100px;
+   
+}*/
+
